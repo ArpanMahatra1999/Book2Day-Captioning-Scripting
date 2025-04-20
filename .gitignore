@@ -2,3 +2,4 @@
 .idea/
 venv/
 __pycache__/
+weekly_books.json
