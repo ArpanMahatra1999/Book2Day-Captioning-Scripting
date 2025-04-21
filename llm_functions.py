@@ -57,7 +57,8 @@ def generate_caption(title, authors, description):
         Additional details:
         - Generate title.
         - End the caption telling "Link is available in bio".
-        - Also, tell users to follow Book2Day for more updates.
+        - Also, tell users to follow @book.2.day for more updates.
+        - Separate paragraphs with 1 empty line.
         - Don't use a lot of emojis.
         - Use upto 10 hashtags.
         
