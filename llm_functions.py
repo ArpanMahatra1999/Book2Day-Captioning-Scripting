@@ -26,7 +26,7 @@ def generate_script(title, authors, description):
         - Don't include emojis. Just include one person narration.
         - Tell audience to read the book.
         - Use less than 1000 characters.
-        - DO NOT TELL LINK IS AVAILABLE IN BIO.
+        - TELL STRICTLY LINK IS AVAILABLE IN BIO IN THE VERY END.
     """
     prompt = PromptTemplate(
         input_variables=["title", "authors", "description"],
