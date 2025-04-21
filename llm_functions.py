@@ -55,8 +55,8 @@ def generate_caption(title, authors, description):
         Description: {description}
         
         Additional details:
-        - Generate title in bold.
-        - End the caption telling "Link is available in bio" in bold.
+        - Generate title.
+        - End the caption telling "Link is available in bio".
         - Also, tell users to follow Book2Day for more updates.
         - Don't use a lot of emojis.
         - Use upto 10 hashtags.
