@@ -22,7 +22,8 @@ if __name__ == "__main__":
             "title": book["title"],
             "weekday": book["weekday"],
             "authors": book["authors"],
-            "script": script,
+            "script": f"""Generate video for script: {script}.
+                        Don't forget to tell in the end that ORDER YOUR COPY NOW! THE LINK IS AVAILABLE IN BIO.""",
             "caption": caption
         })
         time.sleep(30)
