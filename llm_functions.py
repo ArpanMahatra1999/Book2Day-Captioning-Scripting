@@ -25,8 +25,8 @@ def generate_script(title, authors, description):
         - End the video script with attracting viewers to click link on Instagram page's bio.
         - Don't include emojis. Just include one person narration.
         - Tell audience to read the book.
-        - Strictly tell "Link is available in bio" in the very end.
         - Use less than 1000 characters.
+        - DO NOT TELL LINK IS AVAILABLE IN BIO.
     """
     prompt = PromptTemplate(
         input_variables=["title", "authors", "description"],
